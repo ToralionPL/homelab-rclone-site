@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Information about Homelab Rclone, a personal utility for backing up a privately operated home server to Google Drive.">
+  <title>Homelab Rclone</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="wrap">
+    <header class="top">
+      <div class="mark" aria-hidden="true">HR</div>
+      <div>
+        <p class="eyebrow">PERSONAL HOMELAB TOOL</p>
+        <h1>Homelab Rclone</h1>
+      </div>
+    </header>
+
+    <section class="intro">
+      <p class="lead">A small, privately operated utility for backing up a home server to the owner's Google Drive.</p>
+      <p>Homelab Rclone uses the open-source <a href="https://rclone.org/" rel="noopener noreferrer">rclone</a> command-line program and the Google Drive API to transfer backup archives from a privately operated home server to a Google Drive account controlled by the same owner.</p>
+    </section>
+
+    <section class="panel">
+      <h2>What it does</h2>
+      <ul>
+        <li>Runs on the owner's own home server; this website does not run the backup software.</li>
+        <li>Uses Google Drive access authorised by the account owner.</li>
+        <li>Uploads locally created backup archives to a folder selected by the owner.</li>
+        <li>May list or delete older backup archives in that folder when the owner has configured a retention rule.</li>
+      </ul>
+    </section>
+
+    <section class="panel">
+      <h2>Data and privacy</h2>
+      <p>Backup contents and OAuth credentials are handled by rclone on the owner's own server. This website does not receive backup files, Google Drive contents, OAuth tokens, or Google account credentials. The utility does not provide a hosted account, analytics, contact form, or user-tracking feature.</p>
+      <p>Google Drive data is accessed only to perform the backup and retention operations initiated by the owner. The website operator does not independently collect, sell, or share Google user data.</p>
+      <p>For details, read the <a href="privacy.html">Privacy Policy</a>.</p>
+    </section>
+
+    <footer>
+      <span>Homelab Rclone · Personal project</span>
+      <a href="privacy.html">Privacy Policy</a>
+    </footer>
+  </main>
+</body>
+</html>
