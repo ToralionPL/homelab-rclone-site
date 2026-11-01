@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Privacy Policy for Homelab Rclone.">
+  <title>Privacy Policy · Homelab Rclone</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="wrap">
+    <header class="top">
+      <a class="mark" href="index.html" aria-label="Homelab Rclone home">HR</a>
+      <div>
+        <p class="eyebrow">HOMELAB RCLONE</p>
+        <h1>Privacy Policy</h1>
+      </div>
+    </header>
+
+    <p class="updated">Last updated: 1 November 2026</p>
+
+    <section class="panel">
+      <h2>1. About this utility</h2>
+      <p>Homelab Rclone is a personal utility operated by an individual for backing up data from a privately operated home server to that individual's Google Drive account. It uses the third-party, open-source rclone command-line program and the Google Drive API. It is not affiliated with or endorsed by Google.</p>
+    </section>
+
+    <section class="panel">
+      <h2>2. Google user data accessed</h2>
+      <p>When the owner authorises the utility, rclone receives permission to access Google Drive using the Google Drive API scope:</p>
+      <p><code>https://www.googleapis.com/auth/drive</code></p>
+      <p>This permission can allow rclone to list, read, create, update, and delete files in the connected Google Drive account. The configured backup process uses this access to upload backup archives, inspect the configured backup folder, and delete older backup archives when a retention rule is enabled.</p>
+    </section>
+
+    <section class="panel">
+      <h2>3. How data is used and stored</h2>
+      <ul>
+        <li>Backup files are created on the owner's home server from paths selected by the owner.</li>
+        <li>rclone transfers the configured backup archives directly from that server to the owner's Google Drive account.</li>
+        <li>OAuth credentials and tokens are stored in rclone's local configuration on the owner's server. They are not intentionally sent to the website operator.</li>
+        <li>The website is informational only. It does not operate a server-side backup service and does not receive or store Google Drive files or OAuth tokens.</li>
+      </ul>
+    </section>
+
+    <section class="panel">
+      <h2>4. Sharing</h2>
+      <p>Homelab Rclone does not sell or share Google user data with third parties. Google processes data under its own terms and privacy policy when the owner uses Google Drive. The owner controls the backup destination and any sharing settings in Google Drive.</p>
+    </section>
+
+    <section class="panel">
+      <h2>5. Retention and deletion</h2>
+      <p>Backup archives remain in the owner's Google Drive until the owner deletes them or a retention rule configured by the owner removes older archives. The owner can revoke the utility's Google account access at any time from their Google Account connections settings. Revoking access prevents future authorised operations but does not itself delete existing backup files.</p>
+    </section>
+
+    <section class="panel">
+      <h2>6. Website visitors</h2>
+      <p>This static website has no registration, contact form, analytics, advertising, or tracking cookies. The website is hosted by GitHub Pages; GitHub may process technical request information as described in <a href="https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement" rel="noopener noreferrer">GitHub's Privacy Statement</a>.</p>
+    </section>
+
+    <section class="panel">
+      <h2>7. Contact</h2>
+      <p>For questions about this utility or this policy, contact the operator at: <strong>REPLACE_WITH_CONTACT_EMAIL</strong>.</p>
+      <p class="note">Before publishing, replace the placeholder above with the same support email address entered in Google Auth Platform.</p>
+    </section>
+
+    <footer>
+      <a href="index.html">Homelab Rclone home</a>
+      <span>Personal project</span>
+    </footer>
+  </main>
+</body>
+</html>
